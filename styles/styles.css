@@ -1,3 +1,6 @@
+html {
+    font-size:16px;
+}
 body{
     margin:0;
 }
@@ -7,4 +10,83 @@ main {
 }
 img {
     width:100%;
+}
+.marginZero {
+    margin:0;
+}
+#contents {
+    background-color:hsl(0, 0%, 100%);
+    padding:40px 32px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+h1 {
+    font-size: 2.3rem;
+    line-height: 0.95;
+}
+p {
+    line-height: 1.5;
+}
+
+hr{
+    margin:0;
+}
+.purpleSection{
+    background-color: hsla(332, 51%, 32%, 0.1);
+    padding:30px;
+    border-radius: 10px;
+}
+.purpleSection > h3 {
+    color:hsl(332, 51%, 32%);
+}
+
+.purple {
+    color:hsl(14, 45%, 36%);
+}
+.youngSerif {
+    font-family: "Young Serif",  serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.outFit {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-size: normal;
+}
+.bold{
+    font-weight: 600;
+}
+.bolder {
+    font-weight: 700;
+}
+/* table decorating */
+table {
+    width:100%;
+    border-spacing: 0;
+}
+
+td, th {
+    /* text-align: center; */
+    padding:10px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+hr {
+    border:1px solid hsl(30, 18%, 87%);
+}
+.normal {
+    font-weight: 400;
+}
+/* list elements */
+li {
+    margin-top:10px;
+}
+li:first-child {
+    margin-top: 0;
+}
+.list {
+    padding-left: 20px;
+}
+li {
+    padding-left: 12px;
 }

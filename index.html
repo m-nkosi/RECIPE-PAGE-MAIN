@@ -9,6 +9,9 @@
   <title>Frontend Mentor | Recipe page</title>
   <link rel="stylesheet" href="./styles/styles.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -18,22 +21,22 @@
   <main>
     <img src="./assets/images/image-omelette.jpeg">
     <section id="contents">
-      <h1> Simple Omelette Recipe</h1>
-      <p>
+      <h1 class="youngSerif marginZero"> Simple Omelette Recipe</h1>
+      <p class="outFit normal marginZero">
         An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
         to perfection, optionally filled with your choice of cheese, vegetables, or meats.
       </p>
-      <section class="subsection purpleSection">
-        <h3>Preparation time</h3>
-        <ul>
-          <li><b>Total</b>: Approximately 10 minutes</li>
+      <section class="outFit subsection purpleSection">
+        <h3 class="marginZero">Preparation time</h3>
+        <ul class="list">
+          <li><p class="marginZero"><b>Total</b>: Approximately 10 minutes</p></li>
           <li><b>Preparation</b>: 5 minutes</li>
           <li><b>Cooking</b>: 5 minutes</li>
         </ul>
       </section>
-      <section class="subsection">
-        <h2 class="purple">Ingredients</h2>
-        <ul>
+      <section class="subsection outFit">
+        <h2 class="purple youngSerif marginZero">Ingredients</h2>
+        <ul class="normal list">
           <li>2-3 large eggs</li>
           <li>Salt, to taste</li>
           <li>Pepper, to taste</li>
@@ -42,11 +45,11 @@
         </ul>
       </section>
       <hr>
-      <section class="subsection">
-        <h2 class="purple">Instructions</h2>
-        <ol>
+      <section class="subsection outFit">
+        <h2 class="purple youngSerif marginZero">Instructions</h2>
+        <ol class="normal list">
           <li>
-            <b>Beat the eggs</b>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+            <b class="bolder  ">Beat the eggs</b>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
             You can add a tablespoon of water or milk for a fluffier texture.
           </li>
           <li>
@@ -71,42 +74,34 @@
       </section>
       <hr>
       <section class="subsection">
-        <h2 class="purple">
+        <h2 class="purple youngSerif marginZero">
           Nutrition
         </h2>
-        <p>
+        <p class="outFit">
           The table below shows nutritional values per serving without the additional fillings.
         </p>
         <table>
           <tr>
-            <td>Calories</td>
-            <td><b class="purple">277kcal</b></td>
+            <td class="outFit">Calories</td>
+            <td><b class="purple outFit bold">277kcal</b></td>
           </tr>
           <tr>
-            <td>Carbs</td>
-            <td><b class="purple">0g</b></td>
+            <td class="outFit">Carbs</td>
+            <td><b class="purple outFit bold">0g</b></td>
           </tr>
           <tr>
-            <td>Protein</td>
-            <td><b class="purple">20g</b></td>
+            <td class="outFit">Protein</td>
+            <td><b class="purple outFit bold">20g</b></td>
           </tr>
           <tr>
-            <td>Fat</td>
-            <td><b class="purple">22g</b></td>
+            <td class="outFit">Fat</td>
+            <td><b class="purple outFit bold">22g</b></td>
           </tr>
         </table>
       </section>
     </section>
   </main>
-  <!-- 
 
-
-  
-  
-
- 
-  
-   -->
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
