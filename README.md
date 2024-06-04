@@ -28,7 +28,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: [GitHub](https://github.com/m-nkosi/RECIPE-PAGE-MAIN.git)
-- Live Site URL: [Netlify](https://app.netlify.com/sites/recipe-by-mxolisi/overview)
+- Live Site URL: [Netlify](https://recipe-by-mxolisi.netlify.app/)
 
 ## My process
 
